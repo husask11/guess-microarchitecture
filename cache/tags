@@ -1,0 +1,327 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ABS	src/load_buffer.c	12;"	d	file:
+ABS	src/load_latency.c	512;"	d	file:
+ABS	src/store_buffer.c	13;"	d	file:
+ADD_BYTE	src/reorder.c	20;"	d	file:
+ADD_DWORD	src/reorder.c	22;"	d	file:
+ADD_WORD	src/reorder.c	21;"	d	file:
+ASM_PREFIX	include/store_buffer.h	86;"	d
+ASM_SUFFIX	include/store_buffer.h	87;"	d
+BUF_SIZE	src/threshold.c	9;"	d	file:
+CACHE_DEBUG	include/config.h	5;"	d
+CACHE_LATENCY_GAP	src/load_latency.c	511;"	d	file:
+CACHE_MAX	src/load_latency.c	509;"	d	file:
+CACHE_MIN	src/load_latency.c	507;"	d	file:
+CC	Makefile	/^CC = gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -g -O0 -Wall -I\/usr\/include\/ -Iinclude$/;"	m
+COUNT	src/threshold.c	8;"	d	file:
+END	include/store_buffer.h	91;"	d
+END	include/store_buffer.h	93;"	d
+LIBS	Makefile	/^LIBS = $/;"	m
+LOAD1	include/load_buffer.h	8;"	d
+LOAD10	include/load_buffer.h	17;"	d
+LOAD11	include/load_buffer.h	19;"	d
+LOAD12	include/load_buffer.h	20;"	d
+LOAD13	include/load_buffer.h	21;"	d
+LOAD14	include/load_buffer.h	22;"	d
+LOAD15	include/load_buffer.h	23;"	d
+LOAD16	include/load_buffer.h	24;"	d
+LOAD17	include/load_buffer.h	25;"	d
+LOAD18	include/load_buffer.h	26;"	d
+LOAD19	include/load_buffer.h	27;"	d
+LOAD2	include/load_buffer.h	9;"	d
+LOAD20	include/load_buffer.h	28;"	d
+LOAD21	include/load_buffer.h	30;"	d
+LOAD22	include/load_buffer.h	31;"	d
+LOAD23	include/load_buffer.h	32;"	d
+LOAD24	include/load_buffer.h	33;"	d
+LOAD25	include/load_buffer.h	34;"	d
+LOAD26	include/load_buffer.h	35;"	d
+LOAD27	include/load_buffer.h	36;"	d
+LOAD28	include/load_buffer.h	37;"	d
+LOAD29	include/load_buffer.h	38;"	d
+LOAD3	include/load_buffer.h	10;"	d
+LOAD30	include/load_buffer.h	39;"	d
+LOAD31	include/load_buffer.h	41;"	d
+LOAD32	include/load_buffer.h	42;"	d
+LOAD33	include/load_buffer.h	43;"	d
+LOAD34	include/load_buffer.h	44;"	d
+LOAD35	include/load_buffer.h	45;"	d
+LOAD36	include/load_buffer.h	46;"	d
+LOAD37	include/load_buffer.h	47;"	d
+LOAD38	include/load_buffer.h	48;"	d
+LOAD39	include/load_buffer.h	49;"	d
+LOAD4	include/load_buffer.h	11;"	d
+LOAD40	include/load_buffer.h	50;"	d
+LOAD41	include/load_buffer.h	52;"	d
+LOAD42	include/load_buffer.h	53;"	d
+LOAD43	include/load_buffer.h	54;"	d
+LOAD44	include/load_buffer.h	55;"	d
+LOAD45	include/load_buffer.h	56;"	d
+LOAD46	include/load_buffer.h	57;"	d
+LOAD47	include/load_buffer.h	58;"	d
+LOAD48	include/load_buffer.h	59;"	d
+LOAD49	include/load_buffer.h	60;"	d
+LOAD5	include/load_buffer.h	12;"	d
+LOAD50	include/load_buffer.h	61;"	d
+LOAD51	include/load_buffer.h	63;"	d
+LOAD52	include/load_buffer.h	64;"	d
+LOAD53	include/load_buffer.h	65;"	d
+LOAD54	include/load_buffer.h	66;"	d
+LOAD55	include/load_buffer.h	67;"	d
+LOAD56	include/load_buffer.h	68;"	d
+LOAD57	include/load_buffer.h	69;"	d
+LOAD58	include/load_buffer.h	70;"	d
+LOAD59	include/load_buffer.h	71;"	d
+LOAD6	include/load_buffer.h	13;"	d
+LOAD60	include/load_buffer.h	72;"	d
+LOAD61	include/load_buffer.h	74;"	d
+LOAD62	include/load_buffer.h	75;"	d
+LOAD63	include/load_buffer.h	76;"	d
+LOAD64	include/load_buffer.h	77;"	d
+LOAD65	include/load_buffer.h	78;"	d
+LOAD66	include/load_buffer.h	79;"	d
+LOAD67	include/load_buffer.h	80;"	d
+LOAD68	include/load_buffer.h	81;"	d
+LOAD69	include/load_buffer.h	82;"	d
+LOAD7	include/load_buffer.h	14;"	d
+LOAD70	include/load_buffer.h	83;"	d
+LOAD71	include/load_buffer.h	85;"	d
+LOAD72	include/load_buffer.h	86;"	d
+LOAD73	include/load_buffer.h	87;"	d
+LOAD74	include/load_buffer.h	88;"	d
+LOAD75	include/load_buffer.h	89;"	d
+LOAD76	include/load_buffer.h	90;"	d
+LOAD77	include/load_buffer.h	91;"	d
+LOAD78	include/load_buffer.h	92;"	d
+LOAD79	include/load_buffer.h	93;"	d
+LOAD8	include/load_buffer.h	15;"	d
+LOAD80	include/load_buffer.h	94;"	d
+LOAD9	include/load_buffer.h	16;"	d
+LOAD_ASM_SUFFIX	include/load_buffer.h	96;"	d
+LOAD_END	include/load_buffer.h	101;"	d
+LOAD_END	include/load_buffer.h	99;"	d
+LOOP	include/store_buffer.h	85;"	d
+MAX_ENTRIES	src/load_buffer.c	15;"	d	file:
+MAX_ENTRIES	src/store_buffer.c	16;"	d	file:
+MAX_LOG	src/load_latency.c	510;"	d	file:
+MAX_STRIDE	src/prefetch.c	39;"	d	file:
+MFENCE	include/load_buffer.h	124;"	d
+MFENCE	include/store_buffer.h	113;"	d
+MICRO_SECOND_FREQ	src/load_latency.c	517;"	d	file:
+MILLI_SECOND_FREQ	src/load_latency.c	516;"	d	file:
+MIN_ITS	src/load_latency.c	35;"	d	file:
+MOV	include/load_buffer.h	106;"	d
+MOV10	include/load_buffer.h	115;"	d
+MOV2	include/load_buffer.h	107;"	d
+MOV20	include/load_buffer.h	116;"	d
+MOV3	include/load_buffer.h	108;"	d
+MOV30	include/load_buffer.h	117;"	d
+MOV4	include/load_buffer.h	109;"	d
+MOV40	include/load_buffer.h	118;"	d
+MOV5	include/load_buffer.h	110;"	d
+MOV50	include/load_buffer.h	119;"	d
+MOV6	include/load_buffer.h	111;"	d
+MOV60	include/load_buffer.h	120;"	d
+MOV7	include/load_buffer.h	112;"	d
+MOV70	include/load_buffer.h	121;"	d
+MOV8	include/load_buffer.h	113;"	d
+MOV80	include/load_buffer.h	122;"	d
+MOV9	include/load_buffer.h	114;"	d
+MOVQ	include/store_buffer.h	96;"	d
+MOVQ10	include/store_buffer.h	105;"	d
+MOVQ2	include/store_buffer.h	97;"	d
+MOVQ20	include/store_buffer.h	106;"	d
+MOVQ3	include/store_buffer.h	98;"	d
+MOVQ30	include/store_buffer.h	107;"	d
+MOVQ4	include/store_buffer.h	99;"	d
+MOVQ40	include/store_buffer.h	108;"	d
+MOVQ5	include/store_buffer.h	100;"	d
+MOVQ50	include/store_buffer.h	109;"	d
+MOVQ6	include/store_buffer.h	101;"	d
+MOVQ60	include/store_buffer.h	110;"	d
+MOVQ7	include/store_buffer.h	102;"	d
+MOVQ70	include/store_buffer.h	111;"	d
+MOVQ8	include/store_buffer.h	103;"	d
+MOVQ9	include/store_buffer.h	104;"	d
+NANO_SECOND_FREQ	src/load_latency.c	518;"	d	file:
+NOP	include/load_buffer.h	126;"	d
+NOP	include/store_buffer.h	115;"	d
+NOP10	include/load_buffer.h	127;"	d
+NOP10	include/store_buffer.h	116;"	d
+NOP100	include/load_buffer.h	129;"	d
+NOP100	include/store_buffer.h	118;"	d
+NOP50	include/load_buffer.h	128;"	d
+NOP50	include/store_buffer.h	117;"	d
+NOP500	include/load_buffer.h	130;"	d
+NOP500	include/store_buffer.h	119;"	d
+NUM_TRIALS	src/load_buffer.c	17;"	d	file:
+NUM_TRIALS	src/store_buffer.c	18;"	d	file:
+OBJS	Makefile	/^OBJS = main.o $(SRC_DIR)timer.o $(SRC_DIR)load_latency.o $(SRC_DIR)store_buffer.o $(SRC_DIR)load_buffer.o $(SRC_DIR)reorder.o $(SRC_DIR)prefetch.o$/;"	m
+ONE_SECOND_FREQ	src/load_latency.c	515;"	d	file:
+PROJECT_ROOT	Makefile	/^export PROJECT_ROOT = .$/;"	m
+SAMPLE	src/load_latency.c	506;"	d	file:
+SPEED	src/load_latency.c	37;"	d	file:
+SRCS	Makefile	/^SRCS = main.c $(SRC_DIR)timer.c $(SRC_DIR)load_latency.c $(SRC_DIR)store_buffer.c $(SRC_DIR)load_buffer.c $(SRC_DIR)reorder.c $(SRC_DIR)prefetch.c$/;"	m
+SRC_DIR	Makefile	/^SRC_DIR = src\/$/;"	m
+START	include/store_buffer.h	84;"	d
+STORE1	include/store_buffer.h	7;"	d
+STORE10	include/store_buffer.h	16;"	d
+STORE11	include/store_buffer.h	18;"	d
+STORE12	include/store_buffer.h	19;"	d
+STORE13	include/store_buffer.h	20;"	d
+STORE14	include/store_buffer.h	21;"	d
+STORE15	include/store_buffer.h	22;"	d
+STORE16	include/store_buffer.h	23;"	d
+STORE17	include/store_buffer.h	24;"	d
+STORE18	include/store_buffer.h	25;"	d
+STORE19	include/store_buffer.h	26;"	d
+STORE2	include/store_buffer.h	8;"	d
+STORE20	include/store_buffer.h	27;"	d
+STORE21	include/store_buffer.h	29;"	d
+STORE22	include/store_buffer.h	30;"	d
+STORE23	include/store_buffer.h	31;"	d
+STORE24	include/store_buffer.h	32;"	d
+STORE25	include/store_buffer.h	33;"	d
+STORE26	include/store_buffer.h	34;"	d
+STORE27	include/store_buffer.h	35;"	d
+STORE28	include/store_buffer.h	36;"	d
+STORE29	include/store_buffer.h	37;"	d
+STORE3	include/store_buffer.h	9;"	d
+STORE30	include/store_buffer.h	38;"	d
+STORE31	include/store_buffer.h	40;"	d
+STORE32	include/store_buffer.h	41;"	d
+STORE33	include/store_buffer.h	42;"	d
+STORE34	include/store_buffer.h	43;"	d
+STORE35	include/store_buffer.h	44;"	d
+STORE36	include/store_buffer.h	45;"	d
+STORE37	include/store_buffer.h	46;"	d
+STORE38	include/store_buffer.h	47;"	d
+STORE39	include/store_buffer.h	48;"	d
+STORE4	include/store_buffer.h	10;"	d
+STORE40	include/store_buffer.h	49;"	d
+STORE41	include/store_buffer.h	51;"	d
+STORE42	include/store_buffer.h	52;"	d
+STORE43	include/store_buffer.h	53;"	d
+STORE44	include/store_buffer.h	54;"	d
+STORE45	include/store_buffer.h	55;"	d
+STORE46	include/store_buffer.h	56;"	d
+STORE47	include/store_buffer.h	57;"	d
+STORE48	include/store_buffer.h	58;"	d
+STORE49	include/store_buffer.h	59;"	d
+STORE5	include/store_buffer.h	11;"	d
+STORE50	include/store_buffer.h	60;"	d
+STORE51	include/store_buffer.h	62;"	d
+STORE52	include/store_buffer.h	63;"	d
+STORE53	include/store_buffer.h	64;"	d
+STORE54	include/store_buffer.h	65;"	d
+STORE55	include/store_buffer.h	66;"	d
+STORE56	include/store_buffer.h	67;"	d
+STORE57	include/store_buffer.h	68;"	d
+STORE58	include/store_buffer.h	69;"	d
+STORE59	include/store_buffer.h	70;"	d
+STORE6	include/store_buffer.h	12;"	d
+STORE60	include/store_buffer.h	71;"	d
+STORE61	include/store_buffer.h	73;"	d
+STORE62	include/store_buffer.h	74;"	d
+STORE63	include/store_buffer.h	75;"	d
+STORE64	include/store_buffer.h	76;"	d
+STORE65	include/store_buffer.h	77;"	d
+STORE66	include/store_buffer.h	78;"	d
+STORE67	include/store_buffer.h	79;"	d
+STORE68	include/store_buffer.h	80;"	d
+STORE69	include/store_buffer.h	81;"	d
+STORE7	include/store_buffer.h	13;"	d
+STORE70	include/store_buffer.h	82;"	d
+STORE8	include/store_buffer.h	14;"	d
+STORE9	include/store_buffer.h	15;"	d
+STRIDE_SIZE	src/prefetch.c	37;"	d	file:
+SYSTEM_CLOCK_FREQ	include/config.h	6;"	d
+TARGET	Makefile	/^TARGET = cache$/;"	m
+TEST_DTLB	src/load_latency.c	/^	TEST_DTLB$/;"	e	enum:_tests	file:
+TEST_RANDLAT	src/load_latency.c	/^	TEST_RANDLAT = 0,$/;"	e	enum:_tests	file:
+THRESHOLD	src/load_buffer.c	16;"	d	file:
+THRESHOLD	src/store_buffer.c	17;"	d	file:
+VARIANT	src/prefetch.c	38;"	d	file:
+WITHIN_RANGE	src/load_buffer.c	13;"	d	file:
+WITHIN_RANGE	src/load_latency.c	513;"	d	file:
+WITHIN_RANGE	src/store_buffer.c	14;"	d	file:
+WORD_SIZE	src/load_latency.c	520;"	d	file:
+__CACHE_CONFIG__	include/config.h	3;"	d
+__LOAD_BUFFER__	include/load_buffer.h	6;"	d
+__STORE_BUFFER__	include/store_buffer.h	5;"	d
+_options	src/load_latency.c	/^struct _options$/;"	s	file:
+_tests	src/load_latency.c	/^enum _tests {$/;"	g	file:
+add_filler	src/reorder.c	/^int add_filler(unsigned char* ibuf, int instr, int i2)$/;"	f
+array	src/load_latency.c	/^void **array;$/;"	v
+buf	src/load_latency.c	/^static char buf[100];$/;"	v	file:
+buffer	src/load_latency.c	/^static unsigned int *buffer[CACHE_MAX \/ 2 + 1];$/;"	v	file:
+cache_latency_bench	src/load_latency.c	/^void cache_latency_bench()$/;"	f
+cache_latency_bench2	src/load_latency.c	/^void cache_latency_bench2()$/;"	f
+cache_result	src/load_latency.c	/^void cache_result(void)$/;"	f
+csize	src/load_latency.c	/^	u32 csize;$/;"	m	struct:perf_log	file:
+cycle_len	src/load_latency.c	/^	int cycle_len;$/;"	m	struct:_options	file:
+dummy	src/load_latency.c	/^void * dummy;$/;"	v
+dummy	src/prefetch.c	/^unsigned int dummy;$/;"	v
+g_buf	src/threshold.c	/^static int g_buf[BUF_SIZE][1024] = {0, };$/;"	v	file:
+g_iteration	main.c	/^static u32 g_iteration;$/;"	v	file:
+g_log	src/load_latency.c	/^} g_log[MAX_LOG];$/;"	v	typeref:struct:perf_log
+g_perf	src/load_latency.c	/^double g_perf[100][46];$/;"	v
+g_test_data	src/threshold.c	/^static int g_test_data = 0;$/;"	v	file:
+hugetlb	src/load_latency.c	/^	bool hugetlb;$/;"	m	struct:_options	file:
+init_dbuf	src/reorder.c	/^void init_dbuf(void ** dbuf, int size, int cycle_length)$/;"	f
+init_global_variable	src/load_latency.c	/^void init_global_variable(void)$/;"	f
+is_xmm	src/reorder.c	/^bool is_xmm[128] = $/;"	v
+iter	include/load_latency.h	/^u32 iter;$/;"	v
+its	src/reorder.c	/^static int its = 8192;$/;"	v	file:
+lcnt	src/load_latency.c	/^static int lcnt;$/;"	v	file:
+lfence	src/prefetch.c	/^static inline void lfence(void) {$/;"	f	file:
+linear	src/load_latency.c	/^static u32** linear(u32** buf, u32 stride, u32 max)$/;"	f	file:
+load_buffer	src/load_buffer.c	/^int load_buffer(int iter)$/;"	f
+load_latency	src/load_latency.c	/^void load_latency(void)$/;"	f
+load_latency_bench	src/load_latency.c	/^void load_latency_bench(u32 i_stride)$/;"	f
+maccess	include/threshold.h	/^static inline void maccess(void *p) {$/;"	f
+main	main.c	/^int main(int argc, char **argv)$/;"	f
+make_routine	src/reorder.c	/^void make_routine(unsigned char* ibuf, void *p1, void *p2, int icount, int instr)$/;"	f
+mbuf	src/load_latency.c	/^static volatile char* mbuf[CACHE_MAX\/WORD_SIZE + 1];$/;"	v	file:
+memsize	src/reorder.c	/^const int memsize = 268435456;$/;"	v
+mfence	src/timer.c	/^inline void mfence(void) {$/;"	f
+mflush	src/timer.c	/^inline void mflush(void *addr) {$/;"	f
+my_rand	src/load_latency.c	/^static inline unsigned long long my_rand (unsigned long long limit)$/;"	f	file:
+my_rand	src/reorder.c	/^static inline unsigned long long my_rand (unsigned long long limit)$/;"	f	file:
+offset_mode	src/load_latency.c	/^	bool offset_mode;$/;"	m	struct:_options	file:
+opts	src/load_latency.c	/^} opts;$/;"	v	typeref:struct:_options
+outer_its	src/reorder.c	/^static int outer_its = 64;$/;"	v	file:
+perf	src/load_latency.c	/^	double perf;$/;"	m	struct:perf_log	file:
+perf_log	src/load_latency.c	/^struct perf_log {$/;"	s	file:
+pos	src/load_latency.c	/^void *pos = 0;$/;"	v
+prefetch	src/prefetch.c	/^void prefetch(int argc, char **argv)$/;"	f
+prefetch_0	src/prefetch.c	/^static inline void prefetch_0(void *addr) {$/;"	f	file:
+prefetch_1	src/prefetch.c	/^static inline void prefetch_1(void *addr) {$/;"	f	file:
+prefetch_2	src/prefetch.c	/^static inline void prefetch_2(void *addr) {$/;"	f	file:
+prefetch_nta	src/prefetch.c	/^static inline void prefetch_nta(void *addr) {$/;"	f	file:
+print_size	src/load_latency.c	/^static char* print_size(double size)$/;"	f	file:
+random_offset_mode	src/load_latency.c	/^	bool random_offset_mode;$/;"	m	struct:_options	file:
+rdtsc	src/reorder.c	/^inline unsigned long long int rdtsc()$/;"	f
+rdtsc	src/timer.c	/^inline unsigned double rdtsc(void)$/;"	f
+reorder	src/reorder.c	/^int reorder(int argc, char **argv)$/;"	f
+run_dtlb	src/load_latency.c	/^static double run_dtlb(long long size, int ITS)$/;"	f	file:
+run_randlat	src/load_latency.c	/^static double run_randlat(long long size, int ITS)$/;"	f	file:
+shuffle	src/load_latency.c	/^u32 ** shuffle(u32 **buffer, u32 stride, u32 max)$/;"	f
+sizelimit	src/load_latency.c	/^	long long sizelimit;$/;"	m	struct:_options	file:
+start_offset	src/load_latency.c	/^	unsigned long long start_offset, stop_offset;$/;"	m	struct:_options	file:
+stop_offset	src/load_latency.c	/^	unsigned long long start_offset, stop_offset;$/;"	m	struct:_options	file:
+store_buffer	src/store_buffer.c	/^int store_buffer(int iter)$/;"	f
+stride	src/load_latency.c	/^	u32 stride;$/;"	m	struct:perf_log	file:
+test	src/load_latency.c	/^	enum _tests test;$/;"	m	struct:_options	typeref:enum:_options::_tests	file:
+test_threshold	src/threshold.c	/^void test_threshold(void)$/;"	f
+timestamp	src/timer.c	/^inline unsigned long long timestamp(void)$/;"	f
+ttt	src/prefetch.c	/^unsigned int ttt;$/;"	v
+ttttt	src/threshold.c	/^void ttttt(void)$/;"	f
+u32	include/load_latency.h	10;"	d
+unroll	src/reorder.c	/^static const int unroll = 17;$/;"	v	file:
