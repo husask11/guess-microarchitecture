@@ -9,8 +9,8 @@ CFLAGS = -g -O0 -Wall -I/usr/include/ -Iinclude
 SRC_DIR = src/
 
 LIBS = 
-OBJS = main.o $(SRC_DIR)timer.o $(SRC_DIR)load_latency.o $(SRC_DIR)store_buffer.o $(SRC_DIR)load_buffer.o $(SRC_DIR)reorder.o $(SRC_DIR)prefetch.o
-SRCS = main.c $(SRC_DIR)timer.c $(SRC_DIR)load_latency.c $(SRC_DIR)store_buffer.c $(SRC_DIR)load_buffer.c $(SRC_DIR)reorder.c $(SRC_DIR)prefetch.c
+OBJS = main.o $(SRC_DIR)timer.o $(SRC_DIR)load_latency.o
+SRCS = main.c $(SRC_DIR)timer.c $(SRC_DIR)load_latency.c
 TARGET = cache
 
 all: $(TARGET)

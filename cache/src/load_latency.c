@@ -744,7 +744,9 @@ void cache_latency_bench()
 	char y_index[25][100] = {0, };
 	double table[100][100] = {0, };
 	int x = 0, y = 0, aa = 0, bb = 0;
-
+	#if defined(__aarch64__)
+		timing_init();
+	#endif
 
 	for(csize = CACHE_MIN; csize <= CACHE_MAX; csize *=2) {
 		print_size(csize);
@@ -783,6 +785,10 @@ void cache_latency_bench()
 			}
 
 			perf /= SAMPLE;
+
+			#if defined(__aarch64__)
+			perf *= 100;
+			#endif
 
 #if CACHE_DEBUG
 			printf("%9s", print_size(stride));
@@ -869,9 +875,14 @@ void load_latency_bench(u32 i_stride)
 				gap += timestamp() - start;
 			}
 			steps++;
-		} while (steps < 100);
+		} while (gap < (ONE_SECOND_FREQ / 100));
 
 		perf = gap / (steps * SAMPLE * (csize / stride));
+
+#if defined(__aarch64__)
+		perf *= 100;
+#endif
+
 #if CACHE_DEBUG
 		printf("%s %3.1lf\n", print_size(csize), perf);
 #endif

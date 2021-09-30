@@ -5,5 +5,4 @@
 #define CACHE_DEBUG 1
 #define SYSTEM_CLOCK_FREQ (380 * 1000 * 1000)
 
-
 #endif /* __CACHE_CONFIG__ */
